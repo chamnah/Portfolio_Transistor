@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{b4ebfdac-93ee-4c20-84a3-8c1e3390ffea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Unit">
+      <UniqueIdentifier>{5cd6b202-4593-4110-a0b6-41bf02934e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{1c143d8d-c486-4feb-9744-324ec9ea7510}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CScriptMgr.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CBulletScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerAnimScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CToolScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffectScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CUnitScript.h">
+      <Filter>Script\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="CSuppressorScript.h">
+      <Filter>Script\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerScript.h">
+      <Filter>Script\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="CBeamScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CHPScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CTurnScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CEventScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CMgrScript.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CTileMgrScript.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CMirrorScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossScript.h">
+      <Filter>Script\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="CChangeSceneScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CSaveLoadMgr.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CMHPScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CMirrorAlpha.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CStartScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CCinematicScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CScriptMgr.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CBulletScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerAnimScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CToolScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffectScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CUnitScript.cpp">
+      <Filter>Script\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="CSuppressorScript.cpp">
+      <Filter>Script\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerScript.cpp">
+      <Filter>Script\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="CHPScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CTurnScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CBeamScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CEventScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CTileMgrScript.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CUIScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CMirrorScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossScript.cpp">
+      <Filter>Script\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="CChangeSceneScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CSaveLoadMgr.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CMHPScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CMirrorAlpha.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CStartScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CCinematicScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
